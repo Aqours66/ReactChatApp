@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("/bg.jpg");
+    /* Background image for the body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Full viewport height */
+    color: white;
+    /* Default text color */
+}
+
+.container {
+    width: 80vw;
+    /* 80% of viewport width */
+    height: 90vh;
+    /* 90% of viewport height */
+    background-color: rgba(17, 25, 40, 0.75);
+    /* Dark background with transparency */
+    backdrop-filter: blur(19px) saturate(180%);
+    /* Apply backdrop filter for blur effect */
+    border-radius: 12px;
+    /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    /* Border with transparency */
+    display: flex;
+}
+
+.loading {
+    padding: 50px;
+    font-size: 36px;
+    border-radius: 10px;
+    background-color: rgba(17, 25, 40, 0.9);
+    /* Darker background color for loading */
+}

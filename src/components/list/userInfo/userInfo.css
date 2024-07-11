@@ -1,0 +1,40 @@
+.userInfo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    /* Dark background */
+    color: #fff;
+    /* White text color */
+    border-bottom: 1px solid #ddd;
+}
+
+.userInfo .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userInfo .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo .user h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.userInfo .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.userInfo .icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
